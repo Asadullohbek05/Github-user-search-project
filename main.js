@@ -1,5 +1,5 @@
 // Mode
-const bodyEl = document.body
-bodyEl.addEventListener('click', () => {
-    bodyEl.classList.toggle('dark-mode')
+const modeEl = document.querySelector('.mode-btn')
+modeEl.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode')
 })
