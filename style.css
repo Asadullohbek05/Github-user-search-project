@@ -148,7 +148,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
+  /* border: 1px solid yellow; */
 }
 
 .btn-wrapper span {
@@ -290,6 +291,7 @@ header {
 
 .avatar {
   border-radius: 50%;
+  width: 117px;
 }
 
 @media screen and (max-width: 768px) {
@@ -329,6 +331,10 @@ header {
   .info-links {
     max-width: 100%;
     margin-top: 30px;
+  }
+  .btn-wrapper {
+    gap: 10px;
+    width: auto;
   }
 }
 
